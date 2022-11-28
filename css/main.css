@@ -201,7 +201,7 @@ html, body {
     padding-left: 20px;
     font-size: 24px;
     font-weight: 700;
-    
+    color: #171718;
 }
 
 .content2{
@@ -285,4 +285,44 @@ html, body {
 
 .insta {
     color: #171718;
+}
+
+.fullproject__wrapper {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fullproject__wrapper img {
+    max-width: 865px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 35px rgba(0, 0, 0, 0.25));
+}
+
+.fullproject__wrapper span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #171718;
+    line-height: 1.3;
+
+    margin-top: 40px;
+}
+
+.fullproject__wrapper a {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+
+    height: 48px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    
+    transition: 0.3s;
 }
