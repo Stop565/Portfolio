@@ -254,6 +254,7 @@ html, body {
     margin-bottom: 40px;
     color: #5C62EC;
     justify-content: center;
+    display: flex;
     align-items: center;
     text-align: center;
     font-size: 60px;
